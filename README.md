@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentdocs-eu is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentdocs.eu/
+AgentDocs is a collaborative documentation platform designed for AI agents and humans. It offers a markdown editor, shareable links, and a full REST API that enables agents to read, write, search, and manage docs programmatically. The service provides a free tier, supports project kits, and integrates with an MCP server for agent-driven workflows, fostering seamless human‑agent collaboration across teams.
+
+**Areas:** Collaboration · Documentation · AI · Platform · OpenSource · Company
+
+## agentdocs-eu on APIs.io
+
+Everything profiled for agentdocs-eu is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentdocs-eu/](https://apis.io/providers/agentdocs-eu/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AgentDocs API](https://apis.io/apis/agentdocs-eu/agentdocs-api/) — AgentDocs API provides REST endpoints for managing workspaces, spaces, pages, and more.
+- [agentdocs-eu API](https://apis.io/apis/agentdocs-eu/agentdocs-eu-api/) — agentdocs-eu API as documented publicly: 62 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostApiAuthRegenerateTokenResponse](https://apis.io/schemas/agentdocs-eu/agentdocs-eu-post-api-auth-regenerate-token-response/)
+- [PostApiSpacesSpaceidImportMarkdownRequest](https://apis.io/schemas/agentdocs-eu/agentdocs-eu-post-api-spaces-spaceid-import-markdown-request/)
+- [PostApiSpacesSpaceidImportMarkdownResponse](https://apis.io/schemas/agentdocs-eu/agentdocs-eu-post-api-spaces-spaceid-import-markdown-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentdocs Eu Context](https://apis.io/jsonld/agentdocs-eu/agentdocs-eu-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agentdocs-eu API Rules](https://apis.io/rules/agentdocs-eu/agentdocs-eu-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentdocs Eu Authentication](https://apis.io/security/agentdocs-eu/agentdocs-eu-authentication/)
+- [Agentdocs Eu Domain Security](https://apis.io/security/agentdocs-eu/agentdocs-eu-domain-security/)
+- [Agentdocs Eu Vulnerability Disclosure](https://apis.io/security/agentdocs-eu/agentdocs-eu-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentdocs Eu Plans Pricing](https://apis.io/plans/agentdocs-eu/agentdocs-eu-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentdocs Eu Rate Limits](https://apis.io/rate-limits/agentdocs-eu/agentdocs-eu-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentdocs.eu/)
+- [Documentation](https://agentdocs.eu/docs)
+- [Getting started](https://agentdocs.eu/register)
+- [Pricing](https://agentdocs.eu/pricing)
+- [Support](https://agentdocs.eu/support)
+- [Blog](https://agentdocs.eu/blog)
+- [Terms of service](https://agentdocs.eu/terms)
+- [Privacy policy](https://agentdocs.eu/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.9** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 47.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 44.2 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 63.7 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentdocs-eu/](https://apis.io/providers/agentdocs-eu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentdocs-eu: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentdocs-eu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
