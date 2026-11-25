@@ -66,7 +66,7 @@
 
 AgentDocs is a collaborative documentation platform designed for AI agents and humans. It offers a markdown editor, shareable links, and a full REST API that enables agents to read, write, search, and manage docs programmatically. The service provides a free tier, supports project kits, and integrates with an MCP server for agent-driven workflows, fostering seamless human‑agent collaboration across teams.
 
-**Areas:** Collaboration · Documentation · AI · Platform · OpenSource · Company
+**Areas:** Collaboration · Documentation · Artificial Intelligence · Platform · Open Source · Company
 
 ## agentdocs-eu on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for agentdocs-eu is published on APIs.io rather than in this
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentdocs-eu-mcp.yml](https://apis.io/servers/agentdocs-eu/agentdocs-eu-mcp-yml/)
 
 #### JSON Schema (3)
 
@@ -105,21 +111,21 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentdocs Eu Authentication](https://apis.io/security/agentdocs-eu/agentdocs-eu-authentication/)
-- [Agentdocs Eu Domain Security](https://apis.io/security/agentdocs-eu/agentdocs-eu-domain-security/)
-- [Agentdocs Eu Vulnerability Disclosure](https://apis.io/security/agentdocs-eu/agentdocs-eu-vulnerability-disclosure/)
+- [agentdocs-eu Authentication](https://apis.io/security/agentdocs-eu/agentdocs-eu-authentication/)
+- [agentdocs-eu Domain Security](https://apis.io/security/agentdocs-eu/agentdocs-eu-domain-security/)
+- [agentdocs-eu Vulnerability Disclosure](https://apis.io/security/agentdocs-eu/agentdocs-eu-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentdocs Eu Plans Pricing](https://apis.io/plans/agentdocs-eu/agentdocs-eu-plans-pricing/)
+- [agentdocs-eu Plans Pricing](https://apis.io/plans/agentdocs-eu/agentdocs-eu-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentdocs Eu Rate Limits](https://apis.io/rate-limits/agentdocs-eu/agentdocs-eu-rate-limits/)
+- [agentdocs-eu Rate Limits](https://apis.io/rate-limits/agentdocs-eu/agentdocs-eu-rate-limits/)
 
 ## Where to find this API
 
@@ -136,18 +142,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.9** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 44.3** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 47.5 |
-| Contract governance | 70.9 |
-| Operational transparency | 44.2 |
+| Discoverability | 73.3 |
+| Contract quality | 20.1 |
+| Contract governance | 19.7 |
+| Operational transparency | 42.9 |
 | Developer ergonomics | 57.1 |
-| Access clarity | 63.7 |
+| Access clarity | 53.2 |
 
-**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+**Agent readiness 38.4** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -172,6 +178,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
